@@ -20,8 +20,6 @@ def test_modal_appears(browser):
     login_button = browser.locator('text=Понятно')
     login_button.click(timeout=5000)
 
-    #time.sleep(1)
-
     login_button = browser.locator('text=Да, верно')
     login_button.click(timeout=5000)
 
